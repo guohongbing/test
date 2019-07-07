@@ -1,0 +1,27 @@
+export JAVA_HOME=/usr/local/jdk
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export JRE_HOME=$JAVA_HOME/jre
+export PATH=$JAVA_HOME/bin:$PATH
+
+
+export HADOOP_HOME=/usr/local/hadoop
+export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
+
+export ZOOKEEPER_HOME=/usr/local/zookeeper
+export PATH=$PATH:$ZOOKEEPER_HOME/bin
+
+export HBASE_HOME=/usr/local/hbase
+export PATH=$PATH:$HBASE_HOME/bin
+
+export HIVE_HOME=/usr/local/hive
+export PATH=$PATH:$HIVE_HOME/bin
+
+export SQOOP_HOME=/usr/local/sqoop
+export PATH=$PATH:$SQOOP_HOME/bin
+
+
+export FLUME_HOME=/usr/local/flume
+export PATH=$PATH:$FLUME_HOME/bin
+
+export KAFKA_HOME=/usr/local/kafka
+export PATH=$PATH:$KAFKA_HOME/bin
